@@ -1,0 +1,217 @@
+body{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #444444;
+    line-height: 30px;
+    font-weight: 400;
+}
+/* style header */
+ .wp-inner #header{
+    background: #ffffff;
+    
+    margin-bottom: 2px;    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+ .wp-inner #header #main-menu{
+    display: flex;
+    padding: 0px 30px;
+}
+
+.wp-inner #header #main-menu li a{
+    display: block;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 500;
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+.wp-inner #header #main-menu li:hover a{
+    background: #008643;
+    transition: all 0.25s;
+    color: #ffffff;
+}
+
+ .wp-inner #header .search-form input{
+    padding-left: 10px;
+    border: 0;
+}
+
+ .wp-inner #header .search-form button[type="submit"]{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+ .wp-inner #header .search-form {
+    border: 1px solid #999;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #999;
+}
+/*--------------------------------------*/
+/*style wp-content*/
+          /*#navigation----*/
+          #navigation {
+            background:#f3f3f3;
+            border: 1px solid #d8d8d8;
+            min-height: 31px;
+        }
+        .fa-angle-right:before {
+            padding-right: 9px;
+            content: "\f105";
+        }
+
+        #navigation  ul li a{
+            color: #000000;
+        }
+
+        #navigation  ul li:hover a{
+           transition: all 0.25s;
+           color:#01a050;
+        }
+/*-------------------------------*/
+         /*#content*/
+          #content{
+            width: 833px;
+            padding-right: 34px;
+
+           }
+           .main-content p{
+            font-size: 14px;
+            margin-bottom: 34px;
+           }
+           .main-content h2{
+            font-size: 26px;
+            color: #000000;
+            margin-top: 26px;
+            margin-bottom: 35px;
+           }
+          .relate-to h2 {
+            font-size: 21px;
+            font-weight: 500;
+            border-bottom: 1px solid#01a050;
+            margin-bottom: 25px;
+            height: 35px;
+          }
+
+          .relate-to h2:hover {
+            transition: all 0.25s;
+            color:#01a050;
+          }
+
+          .relate-to a p{
+            color: #000000;
+          }
+
+          .relate-to a:hover p{
+            transition: all 0.25s;
+            color:#01a050;
+
+          }
+         /*style button*/
+         .style-button{
+            background: transparent;
+            border: 0;
+            cursor: pointer;
+         }
+
+         .style-button i:hover {
+            color: #000000;
+            transition: all 0.25s;
+         }
+
+/*--------------------*/
+ /*style sidebar*/
+
+
+    #sidebar{
+        margin-top: 88px;
+    }
+        .width-sidebar{
+            width: 337px;
+            
+            padding-left: 32px;
+        }
+
+         .linkList-sidebar{
+            margin-top: 20px;
+            margin-bottom: 50px;
+
+        }
+
+
+        .linkList{
+            margin-bottom: 25px;
+        }
+       
+
+        .linkList p {
+            margin-left: 25px;
+        }
+
+        .linkList-sidebar ul li a{
+            color: #000000;
+            font-weight: 500;
+
+        }
+        .linkList-sidebar ul li:hover a{
+            transition: all 0.25s;
+            color:#01a050;
+
+        }
+
+        .width-sidebar h3{
+            font-weight: 500;
+            font-size: 21px;
+            color: #000000;
+        }
+        .width-sidebar h3:hover {
+             transition: all 0.25s;
+            color:#01a050;
+        }
+
+
+/*style footer*/
+        #footer{
+            margin-top: 65px;
+            padding-top: 45px;
+            padding-bottom: 43px;
+        }
+        #footer 
+
+        .widget-head a  {
+            font-size: 21px;
+            font-weight: 100;
+            color: #fff;
+        } 
+
+        .widget-head a:hover h3{
+            color: #000000;
+            transition: all 0.25s;
+
+        }
+
+
+        #footer .wp-inner .widget-detail ul li a{
+            color: #fff;
+            font-size: 15px;
+
+        }#footer .wp-inner .widget-detail ul li:hover a{
+            transition: all 0.25s;
+             color: #000000;
+        }
+
+
+
+        #footer .wp-inner .widget-detail a{
+            color: #fff;
+        }
+        #footer .wp-inner .widget-detail {
+            padding-top: 20px;
+        }
+/*the end*/
